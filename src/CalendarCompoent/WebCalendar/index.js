@@ -207,6 +207,7 @@ export default class Test extends Component {
     }
 
     renderBody() {
+        //dayObject.currMonth === 1 ? 'white' : 'gray'
         return(
             <div className = 'calendar-body'>
                 <div className = 'week-container'>
@@ -217,7 +218,7 @@ export default class Test extends Component {
                 <div className = 'day-container'>
                     {this.state.dayList.map((dayObject, index) => <div key = {index} className = {`day ${dayObject.className}`} onClick={this.onClickThings.bind(this, dayObject, index)}>
                         <div className={'inner_style'} style={{backgroundColor:dayObject.status === 1 ? 'white' : null}}>
-                            <span className={'span_txt'} style={{color:dayObject.status ? '#15BBDB' : dayObject.isdefault === 1 ? 'green' : dayObject.currMonth === 1 ? 'white' : 'gray'}}> {dayObject.day}</span>
+                            <span className={'span_txt'} style={{color:dayObject.status ? '#15BBDB' : dayObject.isdefault === 1 ? 'green' : 'white'}}> {dayObject.day}</span>
                         </div>
                     </div>)}
                 </div>
