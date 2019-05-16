@@ -1,0 +1,83 @@
+.calendar {
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+  }
+  .calendar-body {
+    padding-left: 14px;
+    padding-bottom: 20px;
+    padding-right: 14px;
+    .week-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 10px;
+      .week {
+        //&:nth-child(6), &:nth-child(7){
+        //
+        //}
+        width: 14.2%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+
+    .day-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .day {
+      width: 14.2%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        //&:nth-child(7n-1){
+        //  color: #e02d2d;
+        //}
+        //&:nth-child(7n){
+        //  color: #e02d2d;
+        //}
+        //&.today {
+        //  color: green;
+        //}
+      }
+
+    }
+  }
+}
+.inner_style{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dis{
+  display: flex;
+}
+.aa{
+  display: flex;
+  align-items: center;
+}
+.cal_title{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.span_week{
+  font-size: 14px;
+  color: white;
+}
+.span_txt{
+  font-size: 16px;
+
+}
