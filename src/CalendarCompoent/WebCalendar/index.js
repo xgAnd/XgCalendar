@@ -14,7 +14,7 @@ import left from './img/left.png';
 import right from './img/right.png';
 
 let indexi = -1;
-export default class Test extends Component {
+export default class WebCalendar extends Component {
     constructor(props) {
         super(props);
         this.clickIndex = -1;

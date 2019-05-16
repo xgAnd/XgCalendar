@@ -15,7 +15,7 @@ import './styles.less';
 
 import {getShowCalendarInfo, getBeforeShowData, getAfterShowData, getNeedTime} from '../utils/Utils';
 
-import Test from './WebCalendar';
+import WebCalendar from './WebCalendar';
 import Modal from "../compoents/Modal";
 
 const down = window.Commons.getImg('down');
@@ -438,7 +438,7 @@ class CalendarCompoent extends Component {
                 position:'top',
                 content: (
                     <div className={'ver_modal'}>
-                        <Test onSele={this.onConfirmData.bind(this)} key={1} showDate={this.state.showDate}/>
+                        <WebCalendar onSele={this.onConfirmData.bind(this)} key={1} showDate={this.state.showDate}/>
                     </div>
 
                 )
