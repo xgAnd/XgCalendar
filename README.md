@@ -4,3 +4,4 @@ CalendarCompoent 这个是滚动的日历组件对滚动的加载进行了优化
 当你向前滑动一页或者向后滑动一页都会默认的去加载后一条的数据 防止加载过慢（自认为的哈哈）
 WebCalendar是点击展开的大界面显示一个月的日历。点击左右夹头可以加载上一个月下一个月的数据。因为月份中信息过多所以此空间没有默认加载上一个月和下一个月的数据也就是没做预加载
 CalendarCompoent和WebCalendar做了相互之间的交互 点击WebCalendar中的日期CalendarCompoent会滚动到相应的日期，在CalendarCompoent中点击日期WebCalendar也进行了相应的状态设置。
+![img](https://github.com/xgAnd/XgCalendar/blob/master/src/gif/demo.gif)
